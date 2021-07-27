@@ -427,6 +427,7 @@ botonFiltrar.addEventListener("click", (e) => {
   e.preventDefault();
   let filterBy = document.getElementById("selectFiltro").value;
   let result = filterData(filmsdata, filterBy);
+  console.log(result);
 
   peliculasPorSeleccion(result);
 });
